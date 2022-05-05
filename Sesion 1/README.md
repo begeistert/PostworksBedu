@@ -32,7 +32,6 @@ El project manager ha definido como objetivo para este sprint añadir las siguie
 * Solicitar a continuación el nuevo nombre, apellido y email, mencionando que se debe apretar Enter para mantener el valor actual. Preguntar si el entrevistador se encuentra activo.
 * Guardar los datos del entrevistador llamando a la función `save` de nuestro objeto `interviewer`.
 * Añadir las pruebas unitarias correspondientes para validar el correcto funcionamiento de la funcionalidad de editar entrevistadores.
-Indicaciones generales
 
 ### Resultados
 
