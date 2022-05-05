@@ -5,8 +5,8 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Cognizant_logo_2022.svg" alt="Logo">
   </a>
 
-<h3 align="center">QA Automation Testing</h3>
-<h4 align="center">Sesion 1 - QA Fundamentals</h4>
+<h3 align="center">Java Testing V2</h3>
+<h4 align="center">Sesion 4 - Mockito Tool</h4>
 
 ## Integrantes
 
@@ -16,99 +16,32 @@
 * Salmerón González Victor
 
 ## Desarollo
-A continuación realizaremos un método que nos permite hacer conversiones de PascalCase y snake_case a camelCase
+
+Durante nuestro work, desarrollamos algunas funcionalidades en la clase `SomeBusinessLogic` y comenzamos a familiarizarnos con el uso de `Mockito`. Ahora en este post work continuaremos con el desarrollo de esta clase y exploraremos algunas funcionalidades de Mockito realizando el siguiente ejercicio:
+
+* Añade la funcionalidad de restar en la clase `SomeBusinessLogic`.
+* El método debe utilizar `SomeDataService`.
+* Debemos probar al menos 3 casos: con un arreglo de múltiples números, con un arreglo vacío y con un arreglo de un solo número.
+* Implementa los mocks con múltiples valores de retorno.
+* Explora las posibilidades de utilizar mocks que regresan valores específicos de acuerdo a los parámetros que reciben.
 
 ### Instrucciones
 
-En el archivo StringOperations.js añade una función llamada: castPasalCaseToCamelCase
-Realiza su implementación
-En el archivo TestStringOperations.js añade la función testCastPasalCaseToCamelCase
-Realiza las pruebas que consideres necesarias
-Repite los pasos anteriores ahora para la función castSnakeCaseToCamelCase
+* En el archivo `SomeBusinessLogic.java` añade una función llamada `calculateSubstractionWithADataService`
+* Para su implementación basate en lo realizado con `calculateSumWithADataService`
+* En el archivo `SomeBusinessLogicMockTest.java` crea tres metodos con los siguientes nombres: `calculateSubstractionUsingDataService_basic`, `calculateSubstractionUsingDataService_empty` y `calculateSubstracionUsingDataService_oneValue`
+* Implementa los mocks con múltiples valores de retorno
 
 ### Resultados
 
-`StringOperations.js`
-```javascript
-const castPascalCaseToSnakeCase = (pascalCaseString) => {
-    return pascalCaseString.split(/(?=[A-Z])/).join('_').toLowerCase();
-}
-
-const castSnakeCaseToPascalCase = (snakeCaseString) => {
-    const words = snakeCaseString.split('_');
-    return words.map(word => word[0].toUpperCase() + word.substr(1)).join('');
-}
-
-const castPasalCaseToCamelCase = (CamelString) => {
-  return CamelString.replace(/\W+(.)/g, function(match, chr) {
-      return chr.toUpperCase();
-  });
-   
-}
-
-module.exports = {castPascalCaseToSnakeCase};
-```
-
-`TestStringOperations.js`
-```javascript
-const testCastPasalCaseToCamelCase = () => {
-    castPasalCaseToCamelCase("esto es un ejemplo") === "estoEsUnEjemplo" ? console.log("Test 1 paso") : console.log("Test 1 fallo")
-    console.log(castPasalCaseToCamelCase("esto es un ejemplo"))
-}
-
-const testCastPascalCaseToSnakeCase = () => {
-    executeTest("EstoEsUnEjemplo","esto_es_un_ejemplo",castPascalCaseToSnakeCase);
-    executeTest("otroEjemplo","otro_ejemplo",castPascalCaseToSnakeCase);
-    executeTest("otroejemplo","otroejemplo",castPascalCaseToSnakeCase);
-    //castPascalCaseToSnakeCase("EstoEsUnEjemplo") === "esto_es_un_ejemplo" ? console.log("Test 1 pass") : console.log("Test 1 fail")
-    //castPascalCaseToSnakeCase("otroEjemplo") === "otro_ejemplo" ? console.log("Test 2 pass") : console.log("Test 2 fail")
-    //castPascalCaseToSnakeCase("otroejemplo") === "otroejemplo" ? console.log("Test 3 pass") : console.log("Test 3 fail")
-}
-
-const testCastSnakeCaseToPascalCase = () => {
-    castSnakeCaseToPascalCase("esto_es_un_ejemplo") === "EstoEsUnEjemplo" ? console.log("Test 1 pass") : console.log("Test 1 fail")
-    castSnakeCaseToPascalCase("otro_ejemplo") === "OtroEjemplo" ? console.log("Test 2 pass") : console.log("Test 2 fail")
-    castSnakeCaseToPascalCase("otroejemplo") === "Otroejemplo" ? console.log("Test 3 pass") : console.log("Test 3 fail")
-}
-
-const testCastPascalCaseToSnakeCase2 = () => {
-    const pascalCaseString = "EstoEsUnEjemplo";
-    const expectedSnakeCaseString = "Esto_es_un_ejemplo";
-    const actualSnakeCaseString = castPascalCaseToSnakeCase(pascalCaseString);
-    if (actualSnakeCaseString !== expectedSnakeCaseString) {
-        console.log(`Test fail expected output: ${expectedSnakeCaseString} actual output: ${actualSnakeCaseString}`)
-    } else {
-        console.log("El test paso exitosamente")
-    }
-}
-
-const executeTest = (input, expectedOutput, functionToExecute) => {
-    const actualOutput = functionToExecute(input)
-
-    if (actualOutput !== expectedOutput) {
-        console.log(`Test fail. Expected output: ${expectedOutput}  actual output: ${actualOutput}`)
-    } else {
-        console.log("Test pass")
-    }
-}
-
-testCastPascalCaseToSnakeCase();
-//executeTest();
-//testCastPascalCaseToSnakeCase2();
-//testCastPasalCaseToCamelCase();
-//testCastSnakeCaseToPascalCase();
-```
 
 ### Reflexiones Finales
 
 Una vez que hayas terminado la actividad responde las siguientes preguntas:
 
-1. **¿Cómo elegiste los casos de prueba para validar el correcto funcionamiento del sistema?**
-   * Probar el código con resultados esperados.
-2. **¿Después de concluir el reto refactorizaste el código? ¿Qué cambios realizaste?**
-    * Modifique las funciones de prueba para que me dieran tres pruebas con datos diferentes, posteriormente hice una prueba executeTest para ahorrar tiempo en la prueba de las funciones ya que esta prueba me daba la oportunidad de probar todas las anteriores sin la necesidad de escribir una prueba para cada caso
-3. **¿Utilizaste un método común o múltiples métodos individuales? ¿Por qué?**
-    * Utilice un método común ya que la función era básicamente la misma en las conversiones, una cadena de entrada, una de salida y la llamada a la función así que se simplifico con un método común que ingresando los parámetros nos diera los resultados.
+* ¿Cómo decidiste inyectar el mock?
+* ¿Implementaste un solo método de prueba con múltiples valores de retorno o implementaste múltiples pruebas? ¿Por qué?
+* ¿Crees que existe diferencia entre los mocks que inyectamos manualmente y los inyectados con mockito? ¿Cuáles?
 
 ## Licencia
 Distribuido bajo la licencia MIT. Consulte `LICENCE` para obtener más información.
