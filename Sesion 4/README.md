@@ -6,7 +6,7 @@
   </a>
 
 <h3 align="center">Java Testing V2</h3>
-<h4 align="center">Sesion 4 - Mockito Tool</h4>
+<h4 align="center">Sesion 4 - Atomation with Selenium and Black and White Box Testing</h4>
 
 ## Integrantes
 
@@ -17,20 +17,18 @@
 
 ## Desarollo
 
-Durante nuestro work, desarrollamos algunas funcionalidades en la clase `SomeBusinessLogic` y comenzamos a familiarizarnos con el uso de `Mockito`. Ahora en este post work continuaremos con el desarrollo de esta clase y exploraremos algunas funcionalidades de Mockito realizando el siguiente ejercicio:
+Continuaremos con el desarrollo del software de entrevistadores y exploramos las pruebas de caja negra y blanca realizando el siguiente ejercicio:
 
-* Añade la funcionalidad de restar en la clase `SomeBusinessLogic`.
-* El método debe utilizar `SomeDataService`.
-* Debemos probar al menos 3 casos: con un arreglo de múltiples números, con un arreglo vacío y con un arreglo de un solo número.
-* Implementa los mocks con múltiples valores de retorno.
-* Explora las posibilidades de utilizar mocks que regresan valores específicos de acuerdo a los parámetros que reciben.
+* Añadir las pruebas de casos generadas durante el Reto 1.
+* Diseñar posibles pruebas de caja blanca para el código.
+* Debemos generar pruebas de caja negra y blanca según corresponda.
 
 ### Instrucciones
 
-* En el archivo `SomeBusinessLogic.java` añade una función llamada `calculateSubstractionWithADataService`
-* Para su implementación basate en lo realizado con `calculateSumWithADataService`
-* En el archivo `SomeBusinessLogicMockTest.java` crea tres metodos con los siguientes nombres: `calculateSubstractionUsingDataService_basic`, `calculateSubstractionUsingDataService_empty` y `calculateSubstracionUsingDataService_oneValue`
-* Implementa los mocks con múltiples valores de retorno
+* Durante el reto 1 creamos los casos de uso y sus especificaciones para cumplir con la historia de usuario: añadir entrevistadores.
+* En tu archivo de pruebas añade las pruebas correspondientes para validar que se cumplan los criterios de aceptación.
+* Modifica el código de alta de entrevistadores de ser necesario.
+* Repetir los pasos 2 y 3 hasta que todos los criterios de aceptación sean validados con al menos una prueba y todas tus pruebas pasen.
 
 ### Resultados
 
@@ -42,9 +40,10 @@ Códgio fuente: [Descarga](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%
 
 Una vez que hayas terminado la actividad responde las siguientes preguntas:
 
-* ¿Cómo decidiste inyectar el mock?
-* ¿Implementaste un solo método de prueba con múltiples valores de retorno o implementaste múltiples pruebas? ¿Por qué?
-* ¿Crees que existe diferencia entre los mocks que inyectamos manualmente y los inyectados con mockito? ¿Cuáles?
+* ¿Cuál es la principal diferencia que notas entre tus pruebas de caja negra y blanca?
+* ¿Qué ventajas consideras que tienen unas sobre las otras?
+* ¿Crees que existe alguna desventaja de contar solo con pruebas de caja negra?
+
 
 ## Licencia
 Distribuido bajo la licencia MIT. Consulte `LICENCE` para obtener más información.

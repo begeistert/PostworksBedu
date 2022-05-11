@@ -5,8 +5,8 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Cognizant_logo_2022.svg" alt="Logo">
   </a>
 
-<h3 align="center">Java Testing</h3>
-<h4 align="center">Sesion 5 - Test Driven Development</h4>
+<h3 align="center">Java Testing V2</h3>
+<h4 align="center">Sesion 4 - Mockito Tool</h4>
 
 ## Integrantes
 
@@ -16,23 +16,21 @@
 * Salmerón González Victor
 
 ## Desarollo
-Implementar el algoritmo de ordenamiento buble sort, desglosando el desarrollo y siguiendo las reglas de transformaciones vistas durante la sesión:
 
-* Añade un caso de prueba, ejecutalo y comprueba que falla.
-* Implementa el código mínimo necesario para que dicha prueba pase.
-* Aplica las reglas de transformación de ser necesario.
-* Refactoriza el código si lo consideras necesario.
-* Documenta (captura de pantalla, código, etc) el estado final de tus pruebas y tu código al final de cada ciclo.
+Durante nuestro work, desarrollamos algunas funcionalidades en la clase `SomeBusinessLogic` y comenzamos a familiarizarnos con el uso de `Mockito`. Ahora en este post work continuaremos con el desarrollo de esta clase y exploraremos algunas funcionalidades de Mockito realizando el siguiente ejercicio:
+
+* Añade la funcionalidad de restar en la clase `SomeBusinessLogic`.
+* El método debe utilizar `SomeDataService`.
+* Debemos probar al menos 3 casos: con un arreglo de múltiples números, con un arreglo vacío y con un arreglo de un solo número.
+* Implementa los mocks con múltiples valores de retorno.
+* Explora las posibilidades de utilizar mocks que regresan valores específicos de acuerdo a los parámetros que reciben.
 
 ### Instrucciones
 
-* Crea un nuevo archivo llamado `BubbleSortTest.java`.
-* Crea un nuevo archivo llamado `BubbleSort.java`.
-* Añade el primer caso de prueba para un arreglo vacío.
-* Implementar el código mínimo necesario para pasar este caso de uso.
-* Refactoriza el código de ser necesario.
-* Aplica las transformaciones que sean necesarias.
-* Repite los pasos del 3 al 6 hasta completar los casos de prueba vistos durante el work.
+* En el archivo `SomeBusinessLogic.java` añade una función llamada `calculateSubstractionWithADataService`
+* Para su implementación basate en lo realizado con `calculateSumWithADataService`
+* En el archivo `SomeBusinessLogicMockTest.java` crea tres metodos con los siguientes nombres: `calculateSubstractionUsingDataService_basic`, `calculateSubstractionUsingDataService_empty` y `calculateSubstracionUsingDataService_oneValue`
+* Implementa los mocks con múltiples valores de retorno
 
 ### Resultados
 
@@ -40,15 +38,13 @@ A continuacion video de evidencias: [Video](https://replit.com/@IvnMontiel1/Post
 
 Códgio fuente: [Descarga](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%205/postwork_sesion05.zip)
 
-
-
 ### Reflexiones Finales
 
 Una vez que hayas terminado la actividad responde las siguientes preguntas:
 
-* ¿Cuál fue el paso clave para poder transicionar de un bubble sort a un quicksort?
-* ¿Crees que fue más fácil implementar un quicksort de esta forma que hacerlo sin pruebas? ¿Por qué?
-* ¿Crees que existe diferencia entre las pruebas realizadas para un bubble sort y un quicksort?
+* ¿Cómo decidiste inyectar el mock?
+* ¿Implementaste un solo método de prueba con múltiples valores de retorno o implementaste múltiples pruebas? ¿Por qué?
+* ¿Crees que existe diferencia entre los mocks que inyectamos manualmente y los inyectados con mockito? ¿Cuáles?
 
 ## Licencia
 Distribuido bajo la licencia MIT. Consulte `LICENCE` para obtener más información.
