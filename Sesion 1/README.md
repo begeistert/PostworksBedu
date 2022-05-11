@@ -36,9 +36,9 @@ El project manager ha definido como objetivo para este sprint añadir las siguie
 ### Resultados
 
 
-A continuacion video de evidencias: [Video](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%201/Evidencias_Sesion_01.mp4)
+A continuacion video de evidencias: [Video](https://github.com/begeistert/PostworksBedu/raw/master/Sesion%201/Evidencias_Sesion_01.mp4)
 
-Códgio fuente: [Descarga](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%201/postwork_Sesion_01.zip)
+Códgio fuente: [Descarga](https://github.com/begeistert/PostworksBedu/raw/master/Sesion%201/postwork_Sesion_01.zip)
 
 
 
