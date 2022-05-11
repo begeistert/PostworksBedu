@@ -44,9 +44,9 @@ Conclusiones
 
 ### Resultados
 
-A continuacion video de evidencias: [Video](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%202/Evidencias_Sesion_02.mp4)
+A continuacion video de evidencias: [Video](https://github.com/begeistert/PostworksBedu/raw/master/Sesion%202/Evidencias_Sesion_02.mp4)
 
-Códgio fuente: [Descarga](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%202/postwork_Sesion_02.zip)
+Códgio fuente: [Descarga](https://github.com/begeistert/PostworksBedu/raw/master/Sesion%202/postwork_Sesion_02.zip)
 
 
 ### Reflexiones Finales

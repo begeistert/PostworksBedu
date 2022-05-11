@@ -30,9 +30,9 @@ Adicionalmente tendrás que ejecutar un análisis estático a tu código con Son
 
 ### Resultados
 
-A continuacion video de evidencias: [Video](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%207/Evidencias_Postwork_Sesion_07.mp4)
+A continuacion video de evidencias: [Video](https://github.com/begeistert/PostworksBedu/raw/master/Sesion%207/Evidencias_Postwork_Sesion_07.mp4)
 
-Códgio fuente: [Descarga](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%207/interviews.zip)
+Códgio fuente: [Descarga](https://github.com/begeistert/PostworksBedu/raw/master/Sesion%207/interviews.zip)
 
 
 ### Reflexiones Finales
@@ -40,7 +40,9 @@ Códgio fuente: [Descarga](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%
 Una vez que hayas terminado la actividad responde las siguientes preguntas:
 
 * ¿En qué lenguaje se desarrolla SonarQube?
+  Java
 * ¿Cuáles son los requisitos para instalar SonarQube?
+  
 * ¿Cuál es el papel de SonarQube?
 
 ## Licencia

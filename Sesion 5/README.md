@@ -34,17 +34,21 @@ Durante nuestro work, desarrollamos algunas funcionalidades en la clase `SomeBus
 
 ### Resultados
 
-A continuacion video de evidencias: [Video](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%205/Evidencias_postwork_modulo04_Sesion_05.mp4)
+A continuacion video de evidencias: [Video](https://github.com/begeistert/PostworksBedu/raw/master/Sesion%205/Evidencias_postwork_modulo04_Sesion_05.mp4)
 
-Códgio fuente: [Descarga](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%205/postwork_sesion05.zip)
+Códgio fuente: [Descarga](https://github.com/begeistert/PostworksBedu/raw/master/Sesion%205/postwork_sesion05.zip)
 
 ### Reflexiones Finales
 
 Una vez que hayas terminado la actividad responde las siguientes preguntas:
 
 * ¿Cómo decidiste inyectar el mock?
+  Por inyeccion de dependencias.
 * ¿Implementaste un solo método de prueba con múltiples valores de retorno o implementaste múltiples pruebas? ¿Por qué?
+  Ambas, primero se hicieron casos de prueba con un arreglo de multiples numeros, con un arreglo de un solo numero y un arreglo vacío y después se implementó
+una prueba con multiples valores de retorno.
 * ¿Crees que existe diferencia entre los mocks que inyectamos manualmente y los inyectados con mockito? ¿Cuáles?
+  Si, porque las inyecciones con mockito son más simples pues las instancias son creadas previamente por el Framework.
 
 ## Licencia
 Distribuido bajo la licencia MIT. Consulte `LICENCE` para obtener más información.

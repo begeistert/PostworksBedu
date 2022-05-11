@@ -38,14 +38,14 @@ Implementar el algoritmo de ordenamiento buble sort, desglosando el desarrollo y
 
 A continuacion video de evidencias: 
 
-[Caso arreglo vacío y 1 elemento](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%206/Evidencias%20Postwork%20Sesion%2006_Caso-arreglo%20vacio%20y%20con%20un%20elemento.mp4)
+[Caso arreglo vacío y 1 elemento](https://github.com/begeistert/PostworksBedu/raw/master/Sesion%206/Evidencias%20Postwork%20Sesion%2006_Caso-arreglo%20vacio%20y%20con%20un%20elemento.mp4)
 
-[Caso arreglo con 3 elementos](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%206/Evidencias%20Postwork%20Sesion%2006_Caso-arreglocon%203%20elementos.mp4)
+[Caso arreglo con 3 elementos](https://github.com/begeistert/PostworksBedu/raw/master/Sesion%206/Evidencias%20Postwork%20Sesion%2006_Caso-arreglocon%203%20elementos.mp4)
 
-[Caso con multiples elementos refactorizado](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%206/Evidencias%20Postwork%20Sesion%2006_Caso-arreglocon%20multipleselementos_refactorizado.mp4)
+[Caso con multiples elementos refactorizado](https://github.com/begeistert/PostworksBedu/raw/master/Sesion%206/Evidencias%20Postwork%20Sesion%2006_Caso-arreglocon%20multipleselementos_refactorizado.mp4)
 
 
-Códgio fuente: [Descarga](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%206/Postwork_sesion06.zip)
+Códgio fuente: [Descarga](https://github.com/begeistert/PostworksBedu/raw/master/Sesion%206/Postwork_sesion06.zip)
 
 
 

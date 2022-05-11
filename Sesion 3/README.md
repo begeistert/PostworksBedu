@@ -23,7 +23,7 @@ Continuaremos con el desarrollo del software de entrevistadores y exploraremos l
 
 ### Instrucciones
 
-* En tu archivo `build.grade` asegurate de tener junit en su versión 5.3 o superior
+* En tu archivo `build.gradle` asegurate de tener junit en su versión 5.3 o superior
 * En el mismo archivo asegurate que la configuración test luzca de la siguiente forma
 ```gradle
  test {
@@ -36,9 +36,9 @@ Continuaremos con el desarrollo del software de entrevistadores y exploraremos l
 
 ### Resultados
 
-A continuacion video de evidencias: [Video](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%203/Evidencias_Postwork_sesion_03.mp4)
+A continuacion video de evidencias: [Video](https://github.com/begeistert/PostworksBedu/raw/master/Sesion%203/Evidencias_Postwork_sesion_03.mp4)
 
-Códgio fuente: [Descarga](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%203/postwork_sesion_03.zip)
+Códgio fuente: [Descarga](https://github.com/begeistert/PostworksBedu/raw/master/Sesion%203/postwork_sesion_03.zip)
 
 
 ## Licencia

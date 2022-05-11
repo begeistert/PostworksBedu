@@ -32,9 +32,9 @@ Continuaremos con el desarrollo del software de entrevistadores y exploramos las
 
 ### Resultados
 
-A continuacion video de evidencias: [Video](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%204/Evidencia_Postwork-Sesion_04.mp4)]
+A continuacion video de evidencias: [Video](https://github.com/begeistert/PostworksBedu/raw/master/Sesion%204/Evidencia_Postwork-Sesion_04.mp4)
 
-Códgio fuente: [Descarga](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%204/postwork_Sesion04.zip)
+Códgio fuente: [Descarga](https://github.com/begeistert/PostworksBedu/raw/master/Sesion%204/postwork_Sesion04.zip)
 
 ### Reflexiones Finales
 
