@@ -42,6 +42,13 @@ Dentro de tu paquete principal crea las siguientes clases:
 * Añade las pruebas que consideres necesarias.
 Conclusiones
 
+### Resultados
+
+A continuacion video de evidencias: [Video](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%202/Evidencias_Sesion_02.mp4)
+
+Códgio fuente: [Descarga](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%202/postwork_Sesion_02.zip)
+
+
 ### Reflexiones Finales
 
 * ¿Empleaste herencia en alguna clase?
