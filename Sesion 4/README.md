@@ -34,6 +34,8 @@ Durante nuestro work, desarrollamos algunas funcionalidades en la clase `SomeBus
 
 ### Resultados
 
+A continuacion video de evidencias: [[An Internal Link](https://replit.com/@IvnMontiel1/PostworksBedu#Sesion%204/Evidencia_Postwork-Sesion_04.mp4)](/guides/content/editing-an-existing-page)
+
 
 ### Reflexiones Finales
 
