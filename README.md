@@ -21,13 +21,13 @@ codigo fuente de los mismos.
 
 ## Indice
 
-- [ ] [Sesión 1 - Introduction to Java Testing](https://github.com/begeistert/PostworksBedu/tree/master/Sesion%201)
-- [ ] [Sesión 2 - Unit Testing in Java](https://github.com/begeistert/PostworksBedu/tree/master/Sesion%202)
-- [ ] [Sesión 3 - JUnit & TestNG](https://github.com/begeistert/PostworksBedu/tree/master/Sesion%203)
-- [ ] [Sesión 4 - Automation with Selenium and Black and White Box Testing](https://github.com/begeistert/PostworksBedu/tree/master/Sesion%204)
-- [ ] [Sesión 5 - Mockito Tool](https://github.com/begeistert/PostworksBedu/tree/master/Sesion%205)
-- [ ] [Sesión 6 - Test Driven Develpment](https://github.com/begeistert/PostworksBedu/tree/master/Sesion%206)
-- [ ] [Sesión 7 - Test Quality](https://github.com/begeistert/PostworksBedu/tree/master/Sesion%207)
+- [x] [Sesión 1 - Introduction to Java Testing](https://github.com/begeistert/PostworksBedu/tree/master/Sesion%201)
+- [x] [Sesión 2 - Unit Testing in Java](https://github.com/begeistert/PostworksBedu/tree/master/Sesion%202)
+- [x] [Sesión 3 - JUnit & TestNG](https://github.com/begeistert/PostworksBedu/tree/master/Sesion%203)
+- [x] [Sesión 4 - Automation with Selenium and Black and White Box Testing](https://github.com/begeistert/PostworksBedu/tree/master/Sesion%204)
+- [x] [Sesión 5 - Mockito Tool](https://github.com/begeistert/PostworksBedu/tree/master/Sesion%205)
+- [x] [Sesión 6 - Test Driven Develpment](https://github.com/begeistert/PostworksBedu/tree/master/Sesion%206)
+- [x] [Sesión 7 - Test Quality](https://github.com/begeistert/PostworksBedu/tree/master/Sesion%207)
 - [ ] [Sesión 8 - SonarQube Tool](https://github.com/begeistert/PostworksBedu/tree/master/Sesion%208)
 
 
